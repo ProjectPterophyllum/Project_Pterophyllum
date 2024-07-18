@@ -13,6 +13,13 @@ video {
     font-style: normal;
 }
 
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 30px;
+}
+
 .header-grid-container {
     align-items: normal;
     display: grid;
@@ -33,16 +40,16 @@ video {
 }
 
 .greetings {
-
     text-align: center;
     font-family: "Pacifico", cursive;
-    font-weight:400;
+    font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    text-shadow: yellowgreen ;
+    text-shadow: yellowgreen;
+    margin: 37px;
 }
 
-.social-icons-6 {
+.social-icons {
     list-style: none;
     margin: 10px;
     margin-top: 30px;
@@ -51,7 +58,7 @@ video {
     justify-content: right;
 }
 
-.social-icons-6 a {
+.social-icons a {
     text-decoration: none;
     width: 80px;
     height: 80px;
@@ -67,7 +74,7 @@ video {
     transition: all 0.2s linear 0s;
 }
 
-.social-icons-6 a:after {
+.social-icons a:after {
     content: "";
     display: block;
     width: 90%;
@@ -81,22 +88,22 @@ video {
     border-radius: 20%;
 }
 
-.social-icons-6 a i,
-.social-icons-6 a img {
+.social-icons a i,
+.social-icons a img {
     position: relative;
     z-index: 1;
 }
 
-.social-icons-6 a img {
+.social-icons a img {
     width: 60px;
     height: 60px;
 }
 
-.social-icons-6 a:hover {
+.social-icons a:hover {
     color: #120897;
 }
 
-.social-icons-6 a:hover:after {
+.social-icons a:hover:after {
     top: 5%;
     transition: all 0.2s linear 0s;
 }
