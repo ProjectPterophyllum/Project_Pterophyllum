@@ -21,7 +21,8 @@
     <header>
         <div class="header-grid-container">
             <div class="logo">
-                <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8F%D1%80%D0%B8%D0%B8"><img
+                <a title="Wikipedia is here"
+                    href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8F%D1%80%D0%B8%D0%B8"><img
                         class="logotype" src="/media/icons/LogoRounded.png"></img></a>
             </div>
             <div class="greetings">
@@ -29,11 +30,13 @@
             </div>
             <div class="social-media">
                 <ul class="social-icons">
-                    <li><a href="https://t.me/Ultrabit_0"><img src="/media/icons/socmedia-icons/telegram.png"></img></a>
+                    <li><a title="Telegram" href="https://t.me/Ultrabit_0"><img
+                                src="/media/icons/socmedia-icons/telegram.png"></img></a>
                     </li>
-                    <li><a href="https://www.instagram.com/zero_ultrabit/"><img
+                    <li><a title="Instagram" href="https://www.instagram.com/zero_ultrabit/"><img
                                 src="/media/icons/socmedia-icons/instagram.png"></img></a></li>
-                    <li><a href="https://github.com/ProjectPterophyllum"><img
+                    <li><a title="Github" href="https://github.com/ProjectPterophyllum"><img
+                                style="border: 4px double green; border-radius: 10px;"
                                 src="/media/icons/socmedia-icons/cat.png"></img></a></li>
                 </ul>
             </div>
@@ -41,7 +44,56 @@
         </div>
     </header>
     <main>
+        <p class="typing-text">
+            Just watch and relax in this peaceful place, no need to worry about anything, keep calm and chill.
+            <br>When you are ready to know something about me, you can click on the angelfish located in the lower right
+            corner.
+            <br>Or, you can just follow me, using social media link buttons located in the top right corner.
+        </p>
+        </div>
+        <div title="About me" class="button_about">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <img src="/media/icons/icon_fish.png" class="about_button_img" alt="">
+            </button>
+        </div>
 
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header bg-success">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">About me:</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body bg-success-subtle">
+                        <a class="hyperlinked" target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Pterophyllum</a> - is
+                        a genus of freshwater fish in the cichlid
+                        family,
+                        known commonly as angelfishes or angelfish.
+                        They are native to the Amazon Basin in South America and are popular among aquarium enthusiasts
+                        due to their distinctive shape and beautiful colors.
+                        The most well-known species is Pterophyllum scalare, often simply referred to as the Angelfish.
+                        They are known for their deep, laterally compressed bodies and long, flowing fins.
+                        <br>
+                        <br>
+                        Oh, whats about me?
+                        <br>
+                        My name is Alexey, I was born in 1996. I like to made something unusual.
+                        <br> That's all what I want to tell you about me, my friend :)
+                        <br> Have a nice day, be happy.
+                        <br>
+                        <br> Source for background was taken from
+                        <button type="button" class="btn btn-danger">
+                            <a class="hyperlinked" target="_blank"
+                                href="https://youtu.be/lA19HspCYM8">YouTube</a></button>
+                    </div>
+                    <div class="modal-footer bg-success">
+                        <button type="button" class="btn btn-info" data-bs-dismiss="modal">Return</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
     <footer>
 
